@@ -15,17 +15,15 @@ body {
 
 
 .heading {
-  
     color:#fff8eb;
+    text-decoration: none;
 }
 
 h1 {
     font-family: 'Sacramento', cursive;
-    text-decoration: none;
     padding: 5%;
-    color: inherit;
     letter-spacing: 4px;
-    font-weight: 1200;
+    font-weight: 2400;
     color:#373f47;
 }
 
@@ -49,25 +47,29 @@ p {
 
 /* navigation links */
 
-#menu {
+.menu {
     font-size: 110%;
     letter-spacing: 4px;
     line-height: 75px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
 }
 
-#menu li {
-    float: right;
+.menu li {
+    /* float: right; */
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+
+
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
-    font-weight: 600;
+.menu a:hover {
     color: #dd7373;
     border-bottom: 3px solid #373f47;
 }
@@ -107,6 +109,11 @@ p {
     background-size: cover;
 }
 
+.quote{
+    background-color: rgba(55, 63, 71,.8);
+    /* background-color: #373f47; */
+}
+
 /* footer */
 
 footer {
@@ -132,3 +139,45 @@ footer {
 .foot {
     background-color: #77A6B6;
 }
+
+.test {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link-title {
+    text-align: center;
+    padding: 3rem 0 2.5rem;
+}
+
+.links-additional-text {
+    padding: 3rem 1rem;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 940px) {
+    .test {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .menu {
+        justify-content: center;
+    }
+    .menu li:first-child {
+        /* float: right; */
+        /* list-style-type: none; */
+        margin-right: 0px;
+    }
+  }
+@media only screen and (max-width: 400px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu li {
+        margin: 0;
+    }
+  }
