@@ -1,6 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Open+Sans+Condensed:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+body {
+    background-color: #FFEFD3;
+}
+
+h1 {
+    font-family: 'Corinthia', cursive;
+    font-weight: 1200;
+    color:#3B1F2B;
+}
 
 h2 {
-    color:purple;
+    font-family: 'Corinthia', cursive;
+    font-weight: 600;
+    color:#3B1F2B;
+}
+h3 {
+    color: #96738e;
+}
+
+
+/* images */
+
+.link-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin:0 auto;
+}
+
+.mind-img {
+    background: url('../images/mind.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.body-img {
+    background: url('../images/body.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.soul-img {
+    background: url('../images/soul.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
