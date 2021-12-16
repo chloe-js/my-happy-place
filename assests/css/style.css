@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Sacramento&display=swap');
 
 * {
     margin: 0;
@@ -7,28 +7,65 @@
 }
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #fff8eb;
+    font-family: 'Alice', serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #373f47;
 }
 
-body {
-    background-color: #FFEFD3;
-}
 
 h1 {
-    font-family: 'Corinthia', cursive;
+    font-family: 'Sacramento', cursive;
+    text-decoration: none;
+    padding: 5%;
+    color: inherit;
+    letter-spacing: 4px;
     font-weight: 1200;
-    color:#3B1F2B;
+    color:#fff8eb;
 }
 
 h2 {
-    font-family: 'Corinthia', cursive;
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 4px;
     font-weight: 600;
-    color:#3B1F2B;
+    color:#373f47;
 }
 h3 {
-    color: #96738e;
+    color: #dd7373;
+}
+
+.head {
+    background-color:#dd7373 ;
+}
+
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    font-weight: 600;
+    color: #dd7373;
+    border-bottom: 1px solid #373f47;
+}
+
+.active {
+    border-bottom:  3px solid #dd7373;
 }
 
 
@@ -60,4 +97,30 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #373f47;
+}
+
+.foot {
+    background-color: #77A6B6;
 }
