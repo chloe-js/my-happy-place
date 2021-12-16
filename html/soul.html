@@ -12,8 +12,8 @@
 <body>
     <div class="head">
         <header>
-            <a href="../index.html">
-                <h1 class="heading">The Happy Place</h1>
+            <a href="../index.html" class="heading">
+                <h1 >The Happy Place</h1>
             </a>
         </header>
     </div>
@@ -34,27 +34,57 @@
         </ul>
     </nav>
 
+    <!-- class="form-section" -->
     
-    <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
-            <label for="fname" class="text-input">First Name</label>
-            <input id="fname" class="text-input" name="first_name" type="text" required>
-            
-            <label for="lname" class="text-input">Last Name</label>
+    <section>
+        <ul>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="center-text">
+            <li>
+                <h2>What can we do for you?</h2>
+            </li>
+
+            <li>
+                <label for="fname" class="text-input">First Name</label>
+                <input id="fname" class="text-input" name="first_name" type="text" required>
+            </li>
+
+            <li>
+                <label for="lname" class="text-input">Last Name</label>
             <input id="lname" class="text-input" name="last_name" type="text" required>
+            </li>
             
-            <label for="email" class="text-input">Email Address</label>
+            <li>
+                <label for="email" class="text-input">Email Address</label>
             <input type="email" class="text-input" id="email" name="email_address" required>
+            </li>
+
+            <li>
+                <h2> <i class="fas fa-mug-hot"></i> Let's meet up! </h2>
+            </li>
+
+            <li>
+            <input type="checkbox" id="yoga" name="studio_yoga" value="yoga" required>
+            <label for="yoga">Studio Yoga Classes</label>
+            </li>
+
+            <li>
+            <input type="checkbox" id="meditation" name="studio_meditation" value="meditation" required>
+            <label for="meditation">Studio Meditation Classes</label>
+            </li>
+
+            <li>
+                <input type="checkbox" id="meeting" name="coffee_meeting" value="meeting" required>
+                <label for="meeting">Coffee & Chat Meet Up</label>
+            </li>
+
+            <li>
+                <input type="checkbox" id="consultation" name="consultation_appointment" value="consultation" required>
+                <label for="consultation">Consultation Appointment</label>
+            </li>
             
-            <label for="road">Road</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
-            
-            <input class="join-button" type="submit" value="Let's Run!">
+            <li>
+                <input class="join-button submit" type="submit" value="See You There!" >
+            </li>
         </form>
     </section>
 

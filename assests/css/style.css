@@ -14,17 +14,19 @@ body {
 }
 
 
-.heading {
-    color:#fff8eb;
-    text-decoration: none;
-}
-
 h1 {
     font-family: 'Sacramento', cursive;
     padding: 5%;
     letter-spacing: 4px;
     font-weight: 2400;
     color:#373f47;
+}
+.heading {
+    text-decoration: none;
+
+}
+.heading > h1 {
+    color:#fff8eb;
 }
 
 h2 {
@@ -50,7 +52,6 @@ p {
 .menu {
     font-size: 110%;
     letter-spacing: 4px;
-    line-height: 75px;
     display: flex;
     justify-content: end;
     flex-direction: row-reverse;
@@ -60,22 +61,30 @@ p {
     /* float: right; */
     list-style-type: none;
     margin-right: 30px;
+    padding: 1rem 1rem;
 }
 
+.menu li:hover {
+    background-color: #dd7373;
+    color: #fff8eb;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 
 .menu a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 .menu a:hover {
-    color: #dd7373;
-    border-bottom: 3px solid #373f47;
+    /* color: #dd7373; */
+    /* border-bottom: 3px solid #373f47; */
 }
 
 .active {
-    border-bottom:  3px solid #dd7373;
+    /* border-bottom:  3px solid #dd7373; */
 }
 
 
@@ -122,16 +131,17 @@ p {
     background-position: center;
     background-size: cover;
 }
-.quote{
-    background-color: rgba(55, 63, 71,.8);
-    /* background-color: #373f47; */
-}
+
 
 /* footer */
 
 footer {
-    height: 150px;
+    background-color: #77A6B6;
+
 }
+/* footer > ul{
+    background-color: #77A6B6;
+} */
 
 .social-networks {
     text-align: center;
@@ -146,7 +156,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #373f47;
+    color: #fff8eb;
 }
 
 .foot {
@@ -178,6 +188,25 @@ footer {
     list-style: none;
 }
 
+.submit {
+    font-family: 'Sacramento', cursive;
+    padding: 1rem 2rem;
+    letter-spacing: 4px;
+    font-size: 2rem;
+    color:#373f47;
+    background-color: #dd7373 ;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    background-color: #373f47;
+    color:#dd7373;
+}
+
+.text-input {
+    padding: 1%;
+}
+
 
 @media only screen and (max-width: 940px) {
     .index-wide {
@@ -197,13 +226,29 @@ footer {
         justify-content: space-evenly;
     }
   }
+@media only screen and (max-width: 600px) {
+
+    .heading > h1 {
+        text-align: center;
+    }
+ 
+  }
 @media only screen and (max-width: 400px) {
     .menu {
         flex-direction: column;
         text-align: center;
     }
 
-    .menu li {
+    .menu li:first-child {
         margin: 0;
     }
+ 
+    .menu li {
+        margin: 0;
+        border-radius: 10px;
+    }
+ 
+
+    /*  */
+    
   }
