@@ -36,14 +36,15 @@ Our target audience is most likely females aged from 25-35 entering into full ti
 
 Surface plane:
 
-Font: Will be a mix of “Alice” and “Sacramento” a good paring suggesion from ''https://www.pagecloud.com/blog/best-google-fonts-pairings'' for comparable and complementary fonts
+Font: Will be a mix of “Alice” and “Sacramento” a good paring suggesion from 'https://www.pagecloud.com/blog/best-google-fonts-pairings' for comparable and complementary fonts
 
-Color: Primary color will be black and lighter shades of this. Secondary color will be Gold. Color scheme was decided using Canva Color Wheel
+Color: Primary color will be calm, feminine and relaxing. Secondary will be contrasted as bold but saturated to create a readable contrast for important items and the background will be complementary to both the primary and secondary colors. Color scheme was decided using 'https://coolors.co/77a6b6-373f47-dd7373-fbf2c0'. at irst test there was a contasting issue with the colors chosen but we have now changed the background color to creat more of a contract.
 
-Images have all been selected from image sharing sites and have been appropriately linked in the media section in credits
+![color pallett contrast final choise](./html/color-pallett.png)
 
-Iframe video is video made from friend who’s page will be appropriately linked in the Media section in Credits.
+Images have all been selected from 'https://unsplash.com/' a copy right free image site.
 
+Video links are all from YouTube
 
 - navigation bar change from underline simple style to color overlap 
 - issue naming conventions for css classes
