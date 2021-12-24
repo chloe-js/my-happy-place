@@ -21,19 +21,28 @@ Why would a user want this?
 We not only ooffer the links to videos but also an opportunity to socialise and meet up with a community of like minded individuals. w=We connect users with the choice to come into the studio by contacting the studio and setting up a consultation or to enquire more on yago and meditation time tables.
 
 Who is my target audience?
-Target audience are customers that are looking to learn muay thai/self-defence, get fit and lose weight.
-
-When you go to a particular site, where do you go first?
-Existing customers want to see contact info, schedule times and contact info. New users want to be engaged immediately but also be able to see where price and location is. Muay thai is very niche so a FAQ section may also proof to be beneficial
-
-Why do you go there in particular?
-To check opening times, schedule, contact, location and prices
-
-What makes a good experience?
-Ease of access to information needs to be paramount which means a simple site structure. To attract new users to join, the site needs to be catchy and engaging from the jump.
+Target audience are users that are interested in learning body/mind self-improvement techniques from the convience of their home.
 
 What's worth doing?
+adding links to yoga and meditation videos. 
+Meditation How to, details on preparing self for a guided meditation.
+creating a form to be submitted with user information to contact the studio for a consultation or to enquire more about the studio yoga and meditation classes.
+keeping the site minimal and clean to keep the user in a state of calm while using the site.
+keeping a neatral light and calm colour pallet to instill a sense of calm for the user.
 
+Will it add value, and what value will it add? Who's our target audience? Who is our demographic, or our demographics?
+Our target audience is most likely females aged from 25-35 entering into full time work with stressful jobs which limits the amount of time spent on themselves and creates a highly stressed and sleep deprived user.  having calming feminan color pallet puts the user at ease for the end of the day. short yoga videos and meditation techniques prepare the user to be one click away from 'their happy place'. Also encoraging a meet up or consultation session give the user a sense of community and normality, that there is someone there who will listen if needed and there is a place that they can feel comfortable to escape to if nessesary.
+
+
+Surface plane:
+
+Font: Will be a mix of “Alice” and “Sacramento” a good paring suggesion from ''https://www.pagecloud.com/blog/best-google-fonts-pairings'' for comparable and complementary fonts
+
+Color: Primary color will be black and lighter shades of this. Secondary color will be Gold. Color scheme was decided using Canva Color Wheel
+
+Images have all been selected from image sharing sites and have been appropriately linked in the media section in credits
+
+Iframe video is video made from friend who’s page will be appropriately linked in the Media section in Credits.
 
 
 - navigation bar change from underline simple style to color overlap 
@@ -47,3 +56,4 @@ What's worth doing?
 - submit button needed to be isolated with style
 - responsiveness from mobile to desctop needed to change spacing to make style look better
 - need to refactor css proporties with classes to maintain as day code as possible
+- add a enquire more at the bottom of mind and body page to link to contact us page
