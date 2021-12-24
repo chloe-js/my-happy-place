@@ -9,7 +9,7 @@
 body {
     background-color: #fff8eb;
     font-family: 'Alice', serif;
-    font-weight: 300;
+    font-size: 1rem;
     color: #373f47;
 }
 
@@ -223,7 +223,7 @@ footer {
     }
  
   }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .menu {
         flex-direction: column;
         text-align: center;
