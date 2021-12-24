@@ -43,7 +43,7 @@ p {
 }
 
 .head {
-    background-color:#dd7373 ;
+    background-color:#d75b5b ;
 }
 
 
@@ -65,7 +65,7 @@ p {
 }
 
 .menu li:hover {
-    background-color: #dd7373;
+    background-color: #d75b5b;
     color: #fff8eb;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
