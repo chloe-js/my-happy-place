@@ -18,7 +18,7 @@ h1 {
     font-family: 'Sacramento', cursive;
     padding: 5%;
     letter-spacing: 4px;
-    font-weight: 2400;
+    font-size: 3rem;
     color:#373f47;
 }
 .heading {
@@ -32,13 +32,13 @@ h1 {
 h2 {
     font-family: 'Sacramento', cursive;
     letter-spacing: 4px;
-    font-weight: 600;
+    font-size: 2rem;
     color:#373f47;
 }
 p {
     font-family: 'Alice', serif;
     letter-spacing: 4px;
-    font-weight: 100;
+    font-size: 1rem;
     color:#dd7373;
 }
 
@@ -50,7 +50,7 @@ p {
 /* navigation links */
 
 .menu {
-    font-size: 110%;
+    font-size: 1rem;
     letter-spacing: 4px;
     display: flex;
     justify-content: end;
@@ -143,7 +143,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 2rem;
     margin: 1%;
     padding: 5%;
     color: #fff8eb;
@@ -238,7 +238,4 @@ footer {
         border-radius: 10px;
     }
  
-
-    /*  */
-    
   }
