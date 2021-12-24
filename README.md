@@ -39,10 +39,9 @@ Scope Plane:
 Whats on the table?
 Most important features at this stage in no particular order are as follows:
 
-    Contact info,
     Home navigation,
     How to meditate,
-    Meet up contact,
+    Meet up or consulation contact,
     Links to videos,
 
 Having a calming relaxing home page is the first thing the user will see when opening our site. this should be a warm and welcoming front page, I would like to keep with a rounded edge theme and limiting sharp or hard edges on my images as it is a lot more relaxing style choice. but having more then one image as a circle can be tricky esecially when there are 3 objects involved. I have need to do something else other then float in order to achieve this. 
@@ -51,13 +50,17 @@ I have chosen to go with flex box to help with the alignment and responsivness o
 ![Flex box for 3 object placement](./assests/images/flex-box-circle-image.jpg)
 
 
-Want to offer a hover over feature on gallery images so that when a user puts cursor over image, the image will expand taking up full page. Not hugely important so will wait and see how we progress.
+for the navigation bar when the user hovers and selects the tab I want the color from the header to extend down onto the selected heading.
 
-Streetview tour while it may look impressive is not something that is currently important or feasible however may be the next step in project evolution and user engagement.
+![Hover activation color extention](./assests/images/navigation-extention.jpg)
 
-In addition, gym has merchandise (shorts, gloves jerseys) that it wants to advertise and sell online. Again, not deemed important or feasible at present but may be an additional feature at a later dates
+This has caused an issue with the responsive design by having the rounded images. the tab closest to the header colour looks strange with the round edge at the very top. I may need to isolate this tab in the Media quer, if I have the time to play with it.
 
-Key milestones:
+![Responsive design Hover activation color extention rounded edge issue](./assests/images/navigation-extention-responsive.jpg)
+
+I could include have more videos but the css would be the same and more videos for yoga classes can be added at any time
+
+--Key milestones:
 
     Having Header Complete (for mobile and desktop)
     Footer complete (mobile and desktop)
@@ -69,7 +72,7 @@ Key milestones:
     Contact Us and form complete and optimized (including message showing there submission has been accepted)
     Test and Review
 
-User story/s:
+--User story/s:
 
     As a new member I want to know if joining a Muay Thai gym is for me.
 
@@ -100,20 +103,15 @@ User story/s:
 Structure Plane:
 
 Information architecture:
-To keep our navigation minimal we will have 4 pages 
+To keep our navigation minimal we will have 4 pages and use a responsive navigation to link between them
 
-Home > Gallery > Contact
+Index (happiness) > Mind (Meditation) > Body (yoga) > Soul (Get in touch)
 
 Principles of Organization:
 
-    Currently stands that users to be engaged as soon as they come to site is main priority. Implementation of 5 second rule.
-    Also want to show entire site map as soon as user comes on through nav bar and anchor drop links on homepage.
-    Why do muay thai will serve as the about us and will show above the fold.
-    Schedule/Pricing is a commonly used segment so will be placed in middle of homepage.
-    FAQs will primarily be focused on new users.
-    Testimonials will show towards bottom of page. Even though important want to use as reinforcement of users decision to join.
-    Footer will contain map showing location, business contact info and social media links.
-    Gallery and Contact Us are easily accessible.
+    Our site is an escape from the munade work load of modern sociaty. not every one hass the time to go to a gym or yoga studio. Not everyone has the time to sift through countless youTube videos too find a good quick class to help de-stress or to sleep better. We take out the thinking of relaxing and create a relaxed calming enviroment that when someone (most likely a woman) opens up the site, they are already calming down from their day and they can select a good video to play inthe background while they unwind from their day.
+    We do offer a cconnection for when they have a chance where they can either go to a yoga class or schduel a consult with a someone to speak to.
+    Further information can be found about the studio or the people through the social media sites at the footer if the user wants to explore more.
 
 
 Surface plane:
@@ -122,11 +120,13 @@ Font: Will be a mix of “Alice” and “Sacramento” a good paring suggesion 
 
 Color: Primary color will be calm, feminine and relaxing. Secondary will be contrasted as bold but saturated to create a readable contrast for important items and the background will be complementary to both the primary and secondary colors. Color scheme was decided using 'https://coolors.co/77a6b6-373f47-dd7373-fbf2c0'. at irst test there was a contasting issue with the colors chosen but we have now changed the background color to creat more of a contract.
 
-![color pallett contrast final choise](./html/color-pallett.png)
+![color pallett contrast final choise](./assests/images/color-pallett.png)
 
 Images have all been selected from 'https://unsplash.com/' a copy right free image site.
 
 Video links are all from YouTube
+
+
 
 - navigation bar change from underline simple style to color overlap 
 - issue naming conventions for css classes
