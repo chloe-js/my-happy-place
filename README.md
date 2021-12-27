@@ -153,8 +153,10 @@ line 68 : lack of heading definition
 ![HTML validator test error corrections make no errors](./assests/images/html-validation-error-none.jpg)
 
 ## CSS validation
-![color pallett contrast final choice](./assests/images/color-pallett.png)
+![CSS validator test errors](./assests/images/css-error-font-weight.jpg)
 
 ## Lighthouse validation
 
-![color pallett contrast final choice](./assests/images/color-pallett.png)
+![Best Practive reports Lighthouse accessibility test resding ](./assests/images/lighthouse.jpg)
+
+utilise lighthouse reports to ensure sufficient use of code and best practices have been applied regarding SEO, Best Practice, Accesssiblity, Performance
