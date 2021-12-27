@@ -120,7 +120,7 @@ Font: Will be a mix of “Alice” and “Sacramento” a good paring suggesion 
 
 Color: Primary color will be calm, feminine and relaxing. Secondary will be contrasted as bold but saturated to create a readable contrast for important items and the background will be complementary to both the primary and secondary colors. Color scheme was decided using 'https://coolors.co/77a6b6-373f47-dd7373-fbf2c0'. at irst test there was a contasting issue with the colors chosen but we have now changed the background color to creat more of a contract.
 
-![color pallett contrast final choise](./assests/images/color-pallett.png)
+![color pallett contrast final choice](./assests/images/color-pallett.png)
 
 Images have all been selected from 'https://unsplash.com/' a copy right free image site.
 
@@ -140,3 +140,21 @@ Video links are all from YouTube
 - responsiveness from mobile to desctop needed to change spacing to make style look better
 - need to refactor css proporties with classes to maintain as day code as possible
 - add a enquire more at the bottom of mind and body page to link to contact us page
+
+# Testing
+
+## HTML validation
+![HTML validator test errors](./assests/images/html-validation-errors.jpg)
+
+line 102 : incorrect attribute value, <script src-= written twice>, incorrect src spelling
+line 40 : lack of headings
+line 68 : lack of heading definition 
+
+![HTML validator test error corrections make no errors](./assests/images/html-validation-error-none.jpg)
+
+## CSS validation
+![color pallett contrast final choice](./assests/images/color-pallett.png)
+
+## Lighthouse validation
+
+![color pallett contrast final choice](./assests/images/color-pallett.png)
