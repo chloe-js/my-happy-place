@@ -52,15 +52,19 @@ I have chosen to go with flex box to help with the alignment and responsivness o
 
 # Features 
 
-for the navigation bar when the user hovers and selects the tab I want the color from the header to extend down onto the selected heading.
+    for the navigation bar when the user hovers and selects the tab I want the color from the header to extend down onto the selected heading.
 
 ![Hover activation color extention](./assests/images/navigation-extention.jpg)
 
-This has caused an issue with the responsive design by having the rounded images. the tab closest to the header colour looks strange with the round edge at the very top. I may need to isolate this tab in the Media quer, if I have the time to play with it.
+    This has caused an issue with the responsive design by having the rounded images. the tab closest to the header colour looks strange with the round edge at the very top. I may need to isolate this tab in the Media quer, if I have the time to play with it.
 
 ![Responsive design Hover activation color extention rounded edge issue](./assests/images/navigation-extention-responsive.jpg)
 
-I could include have more videos but the css would be the same and more videos for yoga classes can be added at any time
+    I could include have more videos but the css would be the same and more videos for yoga classes can be added at any time
+
+![Soul sign up form](./assests/images/soul-contact-form.jpg)
+
+    We feature a contact form for customers to sign up to schduel a meet up. They can meet up for a Yoga or meditation class in the studio or even scheduel a consaltation. All the important details have requirement specifications and the email input needs to be valid.
 
 --Key milestones:
 
