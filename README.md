@@ -168,11 +168,11 @@ CSS line 21 font weight incorrect value of 2400px, changed all font weight to fo
 
 utilise lighthouse reports to ensure sufficient use of code and best practices have been applied regarding SEO, Best Practice, Accesssiblity, Performance.
 ### Accessibility, 
-    H1 low color contrast, change background color of header to darker shade of pink and the Header colour of the text to a whiter cream.
+- H1 low color contrast, change background color of header to darker shade of pink and the Header colour of the text to a whiter cream.
 
-    Body low color contrast, change background color of body to whiter shade of cream and the font colour of the text to all be charcol grey.
+- Body low color contrast, change background color of body to whiter shade of cream and the font colour of the text to all be charcol grey.
 
-    p links additional text needed to define the images in the Index page
+- p links additional text needed to define the images in the Index page
 
 ![Lighthouse accessibility test 100% ](./assests/images/Lighthouse-accessibility.jpg)
 
@@ -182,6 +182,9 @@ utilise lighthouse reports to ensure sufficient use of code and best practices h
 
 ## Content
     Code for Social MEdia links and select items of the form validation taken from 'Love Running' Project
+     [Love Running site link](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/).
+    
+    
 ### Youtube 
     'https://www.youtube.com/watch?v=sTANio_2E0Q' 20 min Full Body STRETCH/YOGA for STRESS & ANXIETY Relief, from channel 'MadFit'
     'https://www.youtube.com/watch?v=v7SN-d4qXx0' Bedtime Yoga | 20 Minute Bedtime Yoga Practice | Yoga With Adriene, from channel 'Yoga With Adriene'
