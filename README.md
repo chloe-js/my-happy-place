@@ -154,9 +154,22 @@ line 68 : lack of heading definition
 
 ## CSS validation
 ![CSS validator test errors](./assests/images/css-error-font-weight.jpg)
+CSS line 21 font weight incorrect value of 2400px, changed all font weight to font-sizes value of REM.
+![CSS validator test corrections no errors](./assests/images/css-validation-zero.jpg)
+
 
 ## Lighthouse validation
 
-![Best Practive reports Lighthouse accessibility test resding ](./assests/images/lighthouse.jpg)
+![Best Practive reports Lighthouse accessibility test reading ](./assests/images/Lighthouse.jpg)
 
-utilise lighthouse reports to ensure sufficient use of code and best practices have been applied regarding SEO, Best Practice, Accesssiblity, Performance
+utilise lighthouse reports to ensure sufficient use of code and best practices have been applied regarding SEO, Best Practice, Accesssiblity, Performance.
+### Accessibility, 
+    H1 low color contrast, change background color of header to darker shade of pink and the Header colour of the text to a whiter cream.
+
+    Body low color contrast, change background color of body to whiter shade of cream and the font colour of the text to all be charcol grey.
+
+    p links additional text needed to define the images in the Index page
+
+![Lighthouse accessibility test 100% ](./assests/images/Lighthouse-accessibility.jpg)
+
+![Lighthouse test corrections final reading](./assests/images/Lighthouse-accessibility-100.jpg)
