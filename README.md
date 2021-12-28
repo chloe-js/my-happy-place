@@ -130,9 +130,6 @@ Color: Primary color will be calm, feminine and relaxing. Secondary will be cont
 
 Images have all been selected from 'https://unsplash.com/' a copy right free image site.
 
-Video links are all from YouTube
-
-
 
 - navigation bar change from underline simple style to color overlap 
 - issue naming conventions for css classes
@@ -146,8 +143,6 @@ Video links are all from YouTube
 - responsiveness from mobile to desctop needed to change spacing to make style look better
 - need to refactor css proporties with classes to maintain as day code as possible
 - add a enquire more at the bottom of mind and body page to link to contact us page
-
-# Features
 
 
 # Testing
@@ -182,3 +177,11 @@ utilise lighthouse reports to ensure sufficient use of code and best practices h
 ![Lighthouse accessibility test 100% ](./assests/images/Lighthouse-accessibility.jpg)
 
 ![Lighthouse test corrections final reading](./assests/images/Lighthouse-accessibility-100.jpg)
+
+# Credits
+
+## Content
+    Code for Social MEdia links and select items of the form validation taken from 'Love Running' Project
+### Youtube 
+    'https://www.youtube.com/watch?v=sTANio_2E0Q' 20 min Full Body STRETCH/YOGA for STRESS & ANXIETY Relief, from channel 'MadFit'
+    'https://www.youtube.com/watch?v=v7SN-d4qXx0' Bedtime Yoga | 20 Minute Bedtime Yoga Practice | Yoga With Adriene, from channel 'Yoga With Adriene'
