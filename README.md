@@ -1,5 +1,6 @@
 # project name - 'my-happy-place'
 ## using mind and body self-improvement techniques
+![Multi Device Reponsive design](./assests/images/responsive-multi-device.jpg)
 
 The purpose of this project is to Build a Meditation/Mindfulness/Yoga Website. The External user’s site goal is for users that are interested in learning body/mind self-improvement techniques and the Site owner's goal is to teach users specific body/mind self-improvement techniques.
 
@@ -49,6 +50,7 @@ I have chosen to go with flex box to help with the alignment and responsivness o
 
 ![Flex box for 3 object placement](./assests/images/flex-box-circle-image.jpg)
 
+# Features 
 
 for the navigation bar when the user hovers and selects the tab I want the color from the header to extend down onto the selected heading.
 
@@ -140,6 +142,9 @@ Video links are all from YouTube
 - responsiveness from mobile to desctop needed to change spacing to make style look better
 - need to refactor css proporties with classes to maintain as day code as possible
 - add a enquire more at the bottom of mind and body page to link to contact us page
+
+# Features
+
 
 # Testing
 
