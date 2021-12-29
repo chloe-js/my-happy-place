@@ -127,7 +127,6 @@ p {
 
 footer {
     background-color: #77A6B6;
-
 }
 
 
@@ -149,6 +148,10 @@ footer {
 
 .foot {
     background-color: #77A6B6;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 150px;
 }
 
 .index-wide {
@@ -199,6 +202,8 @@ footer {
     padding: 1%;
 }
 
+.main-area {
+}
 
 @media only screen and (max-width: 940px) {
     .index-wide {
