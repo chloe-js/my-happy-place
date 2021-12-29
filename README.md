@@ -1,6 +1,6 @@
 # project name - 'my-happy-place'
 ## using mind and body self-improvement techniques to balance your self and find Your 'Happy Place'
-![Multi Device Reponsive design](./assests/images/responsive-multi-device-all.jpg)
+![Multi Device Reponsive design](./assests/images/responsive-multi-devices.jpg)
 
 The purpose of this project is to Build a Meditation/Mindfulness/Yoga Website. 
 The External user’s site goal is for users that are interested in **learning** body/mind self-improvement techniques and the Site owner's goal is to **teach users** specific body/mind self-improvement techniques.
@@ -178,6 +178,5 @@ Final Lighthouse reading with all corrections.
 - Taken from **Unslash** Free stock images
 
 # Unfixed bugs
-- I have not managed to keep my foot to stay stuck on the bottom of the page on pages that have minimal content.
 - The responsive design when we move to mobile the navitation tab at the very top has the same style as the others with rounded edges. The very top tab would look better with a straight edge to show fluidity of the very top tab.
 - The order of the tabs seems to be reversed when in the mobile media query, this does not effect the site it would just be better to have the order to be in the reverse
