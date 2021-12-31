@@ -1,5 +1,5 @@
 # Project name - My Happy Place
-## using mind and body self-improvement techniques to balance your self and find Your 'Happy Place'
+## Using mind and body self-improvement techniques to balance your self and find Your 'Happy Place'
 ![Multi Device Reponsive design](./assests/images/responsive-multi-devices.jpg)
 
 The purpose of this project is to Build a Meditation/Mindfulness/Yoga Website. 
