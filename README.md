@@ -123,6 +123,24 @@ At first test there was a contasting issue with the colors chosen but we have no
 
 Images have all been selected from 'https://unsplash.com/' a copy right free image site.
 
+# Version Control
+## Git & GitHub
+I used GitPod as a local repository and IDE and GitHub as a remote repository. The process of version control was:
+First i created a new repository on GitHub
+I have then opened that repository on GitPod and started coding
+In GitPod i have created all the pages and and folders
+I was then saving my work and pushing it to GitHub repository to keep it safe
+Process for saving, commiting and pushing it to remote repository goes as follows (done in terminal):
+git add . for adding work to git
+git commit -m "Commit message" to commit the work on the stage
+git push to update work to GitHub
+## Deployment
+To deploy the website, I followed the below steps on GitHub.
+Go to "Settings" on the repository
+On "Source" of "GitHub Pages", select "master for Branch and click save
+The website is now published on GitHub Pages and the link is provided on on the same section
+Collapse
+
 # Testing
 
 ## HTML validation
